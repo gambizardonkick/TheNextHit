@@ -153,7 +153,7 @@ export default function KenoForm({ onSearch, isSearching = false }: KenoFormProp
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="min-hits" className="text-sm font-medium uppercase tracking-wide">
-                  Minimum Hits
+                  Minimum Tiles To Hits
                 </Label>
                 <Input
                   id="min-hits"
